@@ -31,6 +31,9 @@ export class BrowserExtension {
         return pages;
     }
 
+    async close() {
+        await this.value.close();
+    }
 
 }
 

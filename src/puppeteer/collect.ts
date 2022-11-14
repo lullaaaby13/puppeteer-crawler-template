@@ -1,4 +1,4 @@
-import { PageTask } from './page.task';
+import { PageTask } from './iteration/page-task';
 import { PageExtension } from './extension';
 
 export class Collect<T> {
